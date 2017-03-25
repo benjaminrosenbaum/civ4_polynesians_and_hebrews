@@ -1,5 +1,5 @@
 --- orig/XML/Units/CIV4UnitInfos.xml	2007-09-05 05:00:36.000000000 +0200
-+++ P & H /XML/Units/CIV4UnitInfos.xml	2012-09-05 16:19:09.000000000 +0200
++++ P&H/XML/Units/CIV4UnitInfos.xml	2012-09-05 16:19:09.000000000 +0200
 @@ -891,6 +891,183 @@
  			<LeaderPromotion>NONE</LeaderPromotion>
  			<iLeaderExperience>0</iLeaderExperience>
