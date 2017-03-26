@@ -1,6 +1,133 @@
 --- orig/XML/Civilizations/CIV4CivilizationInfos.xml	2007-08-30 12:12:54.000000000 +0200
-+++ P&H/XML/Civilizations/CIV4CivilizationInfos.xml	2012-09-05 18:12:27.000000000 +0200
-@@ -4666,5 +4666,116 @@
++++ P&H/XML/Civilizations/CIV4CivilizationInfos.xml	2017-03-26 10:18:10.000000000 +0200
+@@ -3050,6 +3050,126 @@
+ 			<CivilizationSelectionSound>AS3D_PERSIA_SELECT</CivilizationSelectionSound>
+ 			<CivilizationActionSound>AS3D_PERSIA_ORDER</CivilizationActionSound>
+ 		</CivilizationInfo>
++
++<!-- P&H MOD START --->
++		<CivilizationInfo>
++			<Type>CIVILIZATION_POLYNESIA</Type>
++			<Description>Polynesians</Description>
++			<ShortDescription>Polynesian</ShortDescription>
++			<Adjective>Polynesian</Adjective>
++			<Civilopedia>Polynesia is a subregion of Oceania, made up of over 1,000 islands scattered over the central and southern Pacific Ocean, stretching from Hawai'i to New Zealand to Easter Island and beyond. The indigenous people who inhabit the islands of Polynesia are termed Polynesians. They share many similar traits including the language family, culture, and beliefs. Historically, they were experienced sailors who used stars to navigate at night, crossing prodigious distances in outrigger canoes.</Civilopedia>
++			<DefaultPlayerColor>PLAYERCOLOR_LIGHT_BROWN</DefaultPlayerColor>
++			<ArtDefineTag>ART_DEF_CIVILIZATION_NATIVE_AMERICA</ArtDefineTag>
++			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
++			<UnitArtStyleType>UNIT_ARTSTYLE_SOUTH_AMERICA</UnitArtStyleType>
++			<bPlayable>1</bPlayable>
++			<bAIPlayable>1</bAIPlayable>
++			<Cities>
++				<City>Apia</City>
++				<City>Nukuleka</City>
++				<City>Papeete</City>
++				<City>Takitumu</City>
++				<City>Hilo</City>
++				<City>Honolulu</City>
++				<City>Kailua</City>
++				<City>Rakahanga</City>
++				<City>Waipahu</City>
++				<City>Bora Bora</City>
++				<City>Oamaru</City>
++				<City>Wanaka</City>
++				<City>Te Pokohiwi</City>
++				<City>Hokitika</City>
++				<City>Tauranga</City>
++				<City>Tahaa</City>
++				<City>Tatakoto</City>
++				<City>Fakarava</City>
++				<City>Mahina</City>
++				<City>Hitia’a O Te Ra</City>
++				<City>Afiamalu</City>
++				<City>Apolima Uta</City>
++				<City>Sato'alepai</City>
++				<City>Musumusu</City>
++				<City>Lalovaea</City>
++				<City>Ulutogia</City>
++				<City>Kapolei</City>
++				<City>Halawa</City>
++				<City>Whangarei</City>
++				<City>Avarua</City>
++				<City>Nuku'alofa</City>
++				<City>Amuri</City>
++				<City>Whanganui</City>
++				<City>Omoka</City>
++				<City>Neiafu</City>
++				<City>Ahe</City>
++				<City>Tekokota</City>
++				<City>Pinaki</City>
++				<City>Otetou</City>
++				<City>Puka-Puka</City>
++				<City>Paeua</City>
++				<City>Turipaoa</City>
++				<City>Pouheva</City>
++				<City>Matautu</City>
++				<City>Matafanga</City>
++				<City>Potimua</City>
++				<City>Mutalau</City>
++				<City>Hakupu</City>
++				<City>Tamakautoga</City>
++				<City>Hihifo</City>
++			</Cities>
++			<Buildings>
++				<Building>
++					<BuildingClassType>BUILDINGCLASS_OBELISK</BuildingClassType>
++					<BuildingType>BUILDING_POLYNESIAN_TIKI</BuildingType>
++				</Building>
++			</Buildings>
++			<Units>
++				<Unit>
++					<UnitClassType>UNITCLASS_GALLEY</UnitClassType>
++					<UnitType>UNIT_POLYNESIAN_OUTRIGGER_CANOE</UnitType>
++				</Unit>
++			</Units>
++			<FreeUnitClasses>
++				<FreeUnitClass>
++					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
++					<iFreeUnits>1</iFreeUnits>
++				</FreeUnitClass>
++			</FreeUnitClasses>
++			<FreeBuildingClasses>
++				<FreeBuildingClass>
++					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
++					<bFreeBuildingClass>1</bFreeBuildingClass>
++				</FreeBuildingClass>
++			</FreeBuildingClasses>
++			<FreeTechs>
++				<FreeTech>
++					<TechType>TECH_AGRICULTURE</TechType>
++					<bFreeTech>1</bFreeTech>
++				</FreeTech>
++				<FreeTech>
++					<TechType>TECH_FISHING</TechType>
++					<bFreeTech>1</bFreeTech>
++				</FreeTech>
++			</FreeTechs>
++			<DisableTechs/>
++			<InitialCivics>
++				<CivicType>CIVIC_DESPOTISM</CivicType>
++				<CivicType>CIVIC_BARBARISM</CivicType>
++				<CivicType>CIVIC_TRIBALISM</CivicType>
++				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
++				<CivicType>CIVIC_PAGANISM</CivicType>
++			</InitialCivics>
++			<Leaders>
++				<Leader>
++					<LeaderName>LEADER_KAMEHAMEHA</LeaderName>
++					<bLeaderAvailability>1</bLeaderAvailability>
++				</Leader>
++			</Leaders>
++			<DerivativeCiv>CIVILIZATION_NATIVE_AMERICA</DerivativeCiv>
++			<CivilizationSelectionSound>AS3D_NATIVE_AMERICA_SELECT</CivilizationSelectionSound>
++			<CivilizationActionSound>AS3D_NATIVE_AMERICA_ORDER</CivilizationActionSound>
++		</CivilizationInfo>
++<!-- P&H MOD END --->
++
+ 		<CivilizationInfo>
+ 			<Type>CIVILIZATION_PORTUGAL</Type>
+ 			<Description>TXT_KEY_CIV_PORTUGAL_DESC</Description>
+@@ -4666,5 +4786,116 @@
  			<CivilizationSelectionSound/>
  			<CivilizationActionSound/>
  		</CivilizationInfo>
@@ -113,7 +240,7 @@
 +			<CivilizationActionSound>AS3D_BABYLON_ORDER</CivilizationActionSound>
 +		</CivilizationInfo>
 +		
-+<!--- P&H MOD START ---->		
++<!--- P&H MOD END ---->		
 +		
  	</CivilizationInfos>
  </Civ4CivilizationInfos>
