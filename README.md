@@ -1,6 +1,15 @@
 # civ4_polynesians_and_hebrews
 A little mod adding Polynesian and Hebrew civilizations to Civilization 4 (with the Warlords expansion)
 
+The mod is expressed here as patchfiles of the form `*.xml.diff`. On a Mac or Linux you should be able to `cd` to the directory where Civilization lives (which contains an XML subdirectory) and apply the patches like:
+```
+  patch -p1 <  civ4_polynesians_and_hebrews/Civilizations/CIV4CivilizationInfos.xml.diff
+  patch -p1 <  civ4_polynesians_and_hebrews/Civilizations/CIV4LeaderHeadInfos.xml.diff
+  patch -p1 <  civ4_polynesians_and_hebrews/Buildings/CIV4BuildingInfos.xml.diff
+  patch -p1 <  civ4_polynesians_and_hebrews/Units/CIV4UnitInfos.xml.diff
+
+```
+
 Polynesia:
  * Unique Unit - Outrigger Canoe, a galley that can cross oceans
  * Unique Building - Tiki, a monument that reduces administrative costs
